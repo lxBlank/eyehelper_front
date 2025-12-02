@@ -17,6 +17,8 @@ class UserInfo(models.Model):
     isActive = models.IntegerField(default=1)
     # 角色    0:普通角色  1:管理员
     role = models.IntegerField(default=0)
+    # 权限
+    primission = models.IntegerField(default=0)
     # 头像
     avator = models.ImageField(upload_to='avator', default='static/avator/default.png')
     # 创建时间
