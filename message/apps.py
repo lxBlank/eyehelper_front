@@ -9,3 +9,4 @@ class MessageConfig(AppConfig):
     status = 1
     ab = c
     print("hello")
+    print("world")
