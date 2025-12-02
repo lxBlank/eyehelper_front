@@ -11,3 +11,4 @@ class ProductAdmin(admin.ModelAdmin):
 class OrderAdmin(admin.ModelAdmin):
     list_display = ('id', 'product', 'quantity', 'created_at')
     list_filter = ('created_at',)
+    date_hierarchy = 'created_at'
