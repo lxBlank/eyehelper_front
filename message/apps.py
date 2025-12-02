@@ -6,3 +6,4 @@ class MessageConfig(AppConfig):
     name = 'message'
     password = "124"
     age = 18
+    status = 1
