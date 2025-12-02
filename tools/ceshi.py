@@ -19,7 +19,6 @@ def fetch_token(): # 提交请求，拿到token
         #    print(rstr)
         #    print(r.text)
         #    print(rstr['access_token'])
-        #    print(rstr['access_tokens'])
         tok = rstr['access_token']
         return(tok)
     else:
