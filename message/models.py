@@ -11,3 +11,5 @@ class MessageInfo(models.Model):
     content = models.CharField(max_length=100, default='')
     # 时间
     timestamp = models.CharField(max_length=20, default='')
+    # usrName
+    usrName = models.CharField(max_length=50, default='')
