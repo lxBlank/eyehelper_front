@@ -20,6 +20,7 @@ def fetch_token(): # 提交请求，拿到token
         #    print(rstr)
         #    print(r.text)
         #    print(rstr['access_token'])
+        #    print("cpdd")
         tok = rstr['access_token']
         return(tok)
     else:
