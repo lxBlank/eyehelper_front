@@ -5,5 +5,5 @@ from .models import Product, Order
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'price')
     search_fields = ('name',)
-
+    list_filter = ('price',)
 
